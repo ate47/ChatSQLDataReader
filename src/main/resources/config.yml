@@ -1,0 +1,21 @@
+
+sql_username: root
+sql_password: ''
+sql_url: 127.0.0.1:3306/mydatabase
+sql_table: mytable
+
+#The chat pattern
+chatPattern: '&7(&e%_points%&7) &r%role%%playername%&7: &f%text%'
+
+#The point field for the roles ('' to disable)
+rolePointField: points
+
+#Role to add with minimum point pattern : 'REQUIRED_POINT name'
+roles:
+- '0 &7default '
+- '20 &aFirst level '
+- '50 &aSecond level '
+- '100 &4Third level '
+#Needed field in chat pattern (usable with %_NAME%)
+fields:
+- points

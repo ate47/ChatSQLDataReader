@@ -1,0 +1,5 @@
+name: ChatSQLDataReader
+main: fr.atesab.sqldatareader.PluginMain
+version: 1.0
+description: Plugin to show in player message sql data
+author: ATE47
